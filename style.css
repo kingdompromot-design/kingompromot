@@ -1,10 +1,39 @@
-body {
-    background: #111;
-    color: white;
-    font-family: Arial, sans-serif;
-    text-align: center;
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
 }
 
-h1 {
-    color: gold;
+header{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+section{
+    background:white;
+    margin:20px;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
 }
